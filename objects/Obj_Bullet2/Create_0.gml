@@ -1,0 +1,1 @@
+speed = Obj_Ship_Hit.speed + 2
