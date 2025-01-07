@@ -1,4 +1,10 @@
+globalvar player_speed;
+globalvar player_direction;
+globalvar player_angle;
+player_speed = 0;
+player_direction = 0;
+player_angle = 0;
 score = 0;
-lives = 3;
+lives = 0;
 health = 4;
 randomize();
