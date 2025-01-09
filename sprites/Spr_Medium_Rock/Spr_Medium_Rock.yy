@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Spr_Medium_Rock",
+  "%Name":"spr_medium_rock",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"bace13ce-772f-4971-b79d-69b1dab9999a","blendMode":0,"displayName":"default","isLocked":false,"name":"bace13ce-772f-4971-b79d-69b1dab9999a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_Medium_Rock",
+  "name":"spr_medium_rock",
   "nineSlice":null,
   "origin":4,
   "parent":{
     "name":"Asteroids",
-    "path":"folders/Sprites/Environment Assets/Asteroids.yy",
+    "path":"folders/Sprites/Asteroids.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Spr_Medium_Rock",
+    "%Name":"spr_medium_rock",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_Medium_Rock",
+    "name":"spr_medium_rock",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5717deb-5273-4c82-b2b3-f3a180816c0a","path":"sprites/Spr_Medium_Rock/Spr_Medium_Rock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5717deb-5273-4c82-b2b3-f3a180816c0a","path":"sprites/spr_medium_rock/spr_medium_rock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f4061eac-482a-46a9-b5ab-59f3e055d283","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

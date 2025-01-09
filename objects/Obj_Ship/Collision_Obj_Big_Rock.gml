@@ -8,7 +8,7 @@ if(alarm_get(0) != 0){
 		sprite_set_speed(Spr_Ship_Low_Health, 3, spritespeed_framespersecond);
 	}else if(health <=0){
 		repeat(10){
-			instance_create_layer(x, y, "Player_Instances", Obj_Debris);
+			instance_create_layer(x, y, "Player_Instances", obj_debris);
 		}
 		instance_destroy();
 		lives -= 1;

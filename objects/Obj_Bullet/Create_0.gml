@@ -1,1 +1,1 @@
-speed = Obj_Ship.speed + 2
+speed = obj_ship.speed + 2

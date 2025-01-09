@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Debris",
+  "%Name":"obj_debris",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Debris",
+  "name":"obj_debris",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Debris",
-    "path":"sprites/Spr_Debris/Spr_Debris.yy",
+    "name":"spr_debris",
+    "path":"sprites/spr_debris/spr_debris.yy",
   },
   "spriteMaskId":null,
   "visible":true,
