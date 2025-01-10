@@ -28,5 +28,6 @@ if(vspeed <= -0.01){
 if (keyboard_check_pressed(vk_space)){
 	var inst = instance_create_layer(x, y, "Player_Instances", obj_bullet);
 	inst.direction = image_angle;
+	audio_play_sound(snd_shoot, 10, false, 1, 0.42)
 }
 move_wrap(x, y, sprite_width/2);
