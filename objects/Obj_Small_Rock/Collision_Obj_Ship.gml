@@ -3,6 +3,8 @@ repeat(10){
 }
 instance_destroy();
 with(other){
-	instance_destroy()
+	instance_destroy();
+	lives -= 1;
 }
-audio_play_sound(snd_augh, 10, false)
+audio_play_sound(snd_augh, 10, false);
+alarm_set(0, 180);
