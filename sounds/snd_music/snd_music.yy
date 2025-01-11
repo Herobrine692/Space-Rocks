@@ -6,10 +6,10 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":351.58203,
+  "duration":598.38696,
   "name":"snd_music",
   "parent":{
     "name":"Sounds",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"snd_music.mp3",
-  "type":0,
+  "type":2,
   "volume":1.0,
 }

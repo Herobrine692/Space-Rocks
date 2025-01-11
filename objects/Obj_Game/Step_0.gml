@@ -4,7 +4,7 @@ if(score >= 1000){
 }
 if(lives <= 0){
 	room_goto(rm_gameover)
-	alarm_set(0, -1)
+	alarm_set(0, 0)
 }
 if(alarm_get(0) == 0){
 	var side = irandom_range(1, 4);
