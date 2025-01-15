@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_boom.mp3",
   "type":0,
-  "volume":0.25,
+  "volume":0.1,
 }
