@@ -25,7 +25,7 @@ if(vspeed >= 0.01){
 if(vspeed <= -0.01){
 		vspeed += 0.01;
 }
-if (keyboard_check(vk_space)){
+if (keyboard_check_pressed(vk_space)){
 	var inst = instance_create_layer(x, y, "Player_Instances", obj_bullet);
 	inst.direction = image_angle;
 	audio_play_sound(snd_shoot, 10, false, 1, 0.42)

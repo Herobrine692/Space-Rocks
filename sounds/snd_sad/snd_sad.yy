@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_augh",
+  "%Name":"snd_sad",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":3.134694,
-  "name":"snd_augh",
+  "duration":3.996735,
+  "name":"snd_sad",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"snd_augh.mp3",
+  "soundFile":"snd_sad.mp3",
   "type":0,
   "volume":1.0,
 }
