@@ -42,7 +42,6 @@
     {"id":{"name":"obj_big_rock","path":"objects/obj_big_rock/obj_big_rock.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
-    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_medium_rock","path":"objects/obj_medium_rock/obj_medium_rock.yy",},},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},},
     {"id":{"name":"obj_small_rock","path":"objects/obj_small_rock/obj_small_rock.yy",},},
