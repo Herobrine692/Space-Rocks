@@ -31,3 +31,4 @@ if (keyboard_check_pressed(vk_space)){
 	audio_play_sound(snd_shoot, 10, false, 1, 0.42)
 }
 move_wrap(x, y, sprite_width/2);
+move_wrap(-x, -y, sprite_width/2);

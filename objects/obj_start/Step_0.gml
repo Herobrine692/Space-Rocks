@@ -24,18 +24,18 @@ switch(room){
 				instance_create_layer(490, 32, "Asteroids", choose(obj_big_rock, obj_medium_rock, obj_small_rock));
 			}
 			if(side == 2){
-				instance_create_layer(948, 490, "Asteroids", obj_big_rock);
+				instance_create_layer(490, 32, "Asteroids", choose(obj_big_rock, obj_medium_rock, obj_small_rock));
 			}
 			if(side == 3){
-				instance_create_layer(490, 948, "Asteroids", obj_big_rock);
+				instance_create_layer(490, 32, "Asteroids", choose(obj_big_rock, obj_medium_rock, obj_small_rock));
 			}
 			if(side == 4){
-				instance_create_layer(32, 490, "Asteroids", obj_big_rock);
+				instance_create_layer(490, 32, "Asteroids", choose(obj_big_rock, obj_medium_rock, obj_small_rock));
 			}
-			alarm_set(0, 60)
+			alarm_set(0, 60);
 		}
 		if(keyboard_check_pressed(vk_enter)){
-			room_restart()
+			room_restart();
 		}
 		break;
 	case rm_gameover:
@@ -48,5 +48,4 @@ switch(room){
 			game_restart()
 		}
 		break;
-	
 }
